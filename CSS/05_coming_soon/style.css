@@ -1,0 +1,64 @@
+ body ,
+ html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+ }
+
+ .container  {
+    background: linear-gradient(135deg, rgba(199, 255, 29, 0.733), rgba(6, 255, 122, 0.6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
+ .content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+ } 
+
+ .logo {
+    width: 150px; 
+    object-fit: contain;
+ }
+ 
+ h1  {
+    color: rgb(219, 219, 92);
+    margin-bottom: 20px;
+ }
+
+ p{
+    color: rgb(82, 82, 210);
+    margin-bottom: 20px;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+
+ input [type="email"]{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+ }
+ button {
+    padding: 0.5rem;
+    background-color: #afdd51;
+    color: rgb(29, 45, 59);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0.4px 6px rgba(107, 97, 97, 0.9);
+    transition: backgroung-color 0.2s ease-in-out;
+ }
+
+ button:hover {
+    background-color: #14a444;
+ }
